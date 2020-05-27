@@ -1,6 +1,6 @@
 # Star Wars React App
 
-This is an react frontend project using the Star Wars API
+This is a react frontend project using the Star Wars API
 
 ![Star Wars React App](/img/starwarsreactapp.png)
 
