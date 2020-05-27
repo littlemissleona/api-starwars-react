@@ -10,10 +10,11 @@ class App extends Component{
     this.handleFetchRequest();
   }
   handleFetchRequest = () => {
-    fetch("http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote")
+    fetch("https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote")
       .then(res => res.json())
       .then(data => this.setState({quote: data.starWarsQuote}))
   }
+  //original link: http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote
   render(){
     return(
       <div className = "App">
