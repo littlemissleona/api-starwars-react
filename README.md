@@ -1,5 +1,12 @@
 # Star Wars React App
 
-This is an react project using Star Wars API
+This is an react frontend project using the Star Wars API
 
-[Link to this project](https://littlemissleona.github.io/api-starwars-react)
+![Star Wars React App](/img/starwarsreactapp.png)
+
+### Download the files, and then enter the following commands in terminal
+```
+cd api-starwars-react
+npm install
+npm start
+```
